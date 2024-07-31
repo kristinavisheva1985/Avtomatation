@@ -11,8 +11,6 @@ def month_to_season(month):
         return "Неверный номер месяца"
     
     
-    print (month_to_season(13))
-    print (month_to_season(9))
-    print (month_to_season(6))
-    print (month_to_season(4))
-    print (month_to_season(18))
+month = 7
+season = month_to_season(month)
+print (f"Месяц {month} относится к сезону: {season}")

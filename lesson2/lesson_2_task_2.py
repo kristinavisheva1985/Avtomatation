@@ -3,3 +3,4 @@ def is_year_leap(year):
 print(is_year_leap(2024))
 print(is_year_leap(2023))
 print(is_year_leap(2022))
+
