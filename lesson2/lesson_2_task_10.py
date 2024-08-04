@@ -1,10 +1,9 @@
-percent = 0.1
+def bank(x, y):
+    for _ in range(y):
+        x += x * 0.1
+    return x 
 
-
-def bank(deposit, year):
-    for i in range(year):
-        deposit = deposit + (deposit * percent)
-    return print(deposit)
-
-
-bank[1000, 10]    
+amount = 5000
+year = 3
+final_amount = bank(amount, year)
+print(f"Сумма на счету через {year} лет: {final_amount}")
